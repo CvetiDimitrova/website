@@ -1,29 +1,37 @@
+/* фон за цялата страница */
 body {
-  background-color: lightblue;
+    background-color: lightgreen;
 }
-
- /* body { 
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c7/YuMZ-6KL_tractor_2011_G1.jpg");
-  background-atachment: fixed;
-} */
-
-
-p,td,li {
-  color: darkgreen;
-} 
 
 h1 {
-  color: darkgreen;
-  text-align: center;
-  
+    background-color: green;
+    color: #1ec9ac;
 }
 
-img,video {
-   width:200px;
-   height:auto;
+h2 {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+th {
+    background-color: blue;
+}
+
+img, video {
+    width: 200px;
+    height: auto;
 }
 
 iframe {
-   width:300px;
-   height:300px;
+    width: 300px;
+    height: 300px;
 }
+
+.traktor {
+    width: 100px;
+    height: auto;
+}
+Footer
